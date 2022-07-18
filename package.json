@@ -13,7 +13,7 @@
     "pretest": "yarn compile",
     "test": "mocha",
     "lint": "prettier ./test/**/*.ts --check",
-    "prepublishOnly": "yarn test"
+    "prepublishOnly": "yarn compile"
   },
   "devDependencies": {
     "@types/chai": "^4.2.12",
